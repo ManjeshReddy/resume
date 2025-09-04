@@ -1,0 +1,28 @@
+{
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "id": 1,
+        "degree": "Bachelor of Engineering in Computer Science",
+        "institution": "VIT University",
+        "year": "2014",
+        "icon": "fas fa-graduation-cap"
+      },
+      {
+        "id": 2,
+        "degree": "Pre-University (PCMB)",
+        "institution": "VIPU College",
+        "year": "2012",
+        "icon": "fas fa-school"
+      },
+      {
+        "id": 3,
+        "degree": "Secondary School",
+        "institution": "KVB, Chintamani",
+        "year": "2010",
+        "icon": "fas fa-book"
+      }
+    ]
+  }
+}

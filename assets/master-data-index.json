@@ -1,0 +1,32 @@
+{
+  "_metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-08-27",
+    "description": "Complete resume data for Manjesh TN - DevSecOps & CloudSecurity Engineer",
+    "sections": [
+      "profile",
+      "objective", 
+      "experience",
+      "skills",
+      "projects",
+      "certifications",
+      "education",
+      "navigation"
+    ]
+  },
+  "_dataFiles": {
+    "profile": "assets/profile-data.json",
+    "objective": "assets/objective-data.json",
+    "experience": "assets/experience-data.json",
+    "skills": "assets/skills-data.json",
+    "projects": "assets/projects-data.json",
+    "certifications": "assets/certifications-data.json",
+    "education": "assets/education-data.json",
+    "navigation": "assets/navigation-data.json"
+  },
+  "_instructions": {
+    "usage": "This is a master index of all data files. Each section has its own dedicated JSON file.",
+    "updating": "To update any section, edit the corresponding JSON file in the assets/ folder.",
+    "generation": "Run ./generate-static.sh after making changes to regenerate the HTML."
+  }
+}

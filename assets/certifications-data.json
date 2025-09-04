@@ -1,0 +1,28 @@
+{
+  "certifications": {
+    "title": "Certifications",
+    "items": [
+      {
+        "id": 1,
+        "name": "AWS Associate Certified",
+        "provider": "Simply Learn",
+        "year": "2018",
+        "icon": "fab fa-aws"
+      },
+      {
+        "id": 2,
+        "name": "Jenkins Professional Certification",
+        "provider": "Spring Academy",
+        "year": "2018",
+        "icon": "fas fa-tools"
+      },
+      {
+        "id": 3,
+        "name": "SANS Certified",
+        "provider": "SANS Institute",
+        "year": "2018",
+        "icon": "fas fa-shield-alt"
+      }
+    ]
+  }
+}

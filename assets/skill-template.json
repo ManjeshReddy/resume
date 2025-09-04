@@ -1,0 +1,46 @@
+{
+  "skill_template": {
+    "title": "Skill Title",
+    "icon": "fas fa-icon-name",
+    "category": "category_key",
+    "technologies": [
+      "Technology 1",
+      "Technology 2",
+      "Technology 3"
+    ],
+    "description": "Brief description of the skill area"
+  },
+  "available_icons": {
+    "cloud": ["fab fa-aws", "fab fa-google", "fab fa-microsoft"],
+    "containers": ["fab fa-docker", "fas fa-cube", "fas fa-cubes"],
+    "programming": ["fab fa-python", "fab fa-js", "fab fa-java", "fab fa-golang"],
+    "security": ["fas fa-shield-alt", "fas fa-lock", "fas fa-user-shield"],
+    "monitoring": ["fas fa-chart-line", "fas fa-chart-bar", "fas fa-tachometer-alt"],
+    "networking": ["fas fa-network-wired", "fas fa-wifi", "fas fa-globe"],
+    "database": ["fas fa-database", "fas fa-table", "fas fa-server"],
+    "automation": ["fas fa-cogs", "fas fa-robot", "fas fa-code-branch"],
+    "general": ["fas fa-tools", "fas fa-wrench", "fas fa-bolt", "fas fa-bell"]
+  },
+  "categories": {
+    "cloud": "Cloud Platforms",
+    "containers": "Containers & Orchestration", 
+    "networking": "Networking & Service Mesh",
+    "security": "Security & Compliance",
+    "programming": "Programming Languages",
+    "devops": "DevOps & CI/CD",
+    "systems": "Systems Administration",
+    "automation": "Automation & IaC",
+    "ai": "AI/ML Operations",
+    "data": "Data & Databases",
+    "infrastructure": "Infrastructure & Servers",
+    "monitoring": "Monitoring & Observability",
+    "operations": "Operations & Incident Management",
+    "reliability": "Reliability Engineering"
+  },
+  "instructions": {
+    "adding_new_skill": "Copy the skill_template, update all fields, and add to skills-data.json",
+    "updating_existing": "Modify the technologies array in the existing skill object",
+    "icon_selection": "Choose appropriate icon from available_icons or use any Font Awesome icon",
+    "category_assignment": "Use existing categories or add new ones following the same pattern"
+  }
+}

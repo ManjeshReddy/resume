@@ -1,0 +1,70 @@
+{
+  "experience": {
+    "title": "Professional Experience",
+    "positions": [
+      {
+        "id": 1,
+        "jobTitle": "CloudSecOps Engineer",
+        "company": "Cisco Systems",
+        "location": "Bangalore-560066",
+        "duration": "Jan 2021 – Present (3.8 Years)",
+        "responsibilities": [
+          "Specialized in AI Operations including VLLM-based model hosting on EC2 and EKS platforms with auto-scaling and load balancing",
+          "Expert in model quantization (INT4, INT8, FP16) and PEFT-based fine-tuning using LoRA and QLoRA for Gemma2, Gemma3, and LLaMA models",
+          "Implemented comprehensive model benchmarking pipelines for throughput, latency, and memory optimization across GPU/CPU architectures",
+          "Advanced MLX framework expertise for Apple Silicon model optimization and CUDA-based fine-tuning for NVIDIA infrastructure",
+          "Deployed production-ready model serving infrastructure with TensorRT optimization and dynamic batching for high-performance inference",
+          "Designed and implemented Parameter-Efficient Fine-Tuning (PEFT) workflows with LoRA/AdaLoRA for domain-specific model adaptation",
+          "Built automated model evaluation and A/B testing frameworks for continuous model performance monitoring and improvement",
+          "Create IDS and IPS layers over applications to prevent intrusion from rogue actors with ML-based threat detection",
+          "Implement fully automated setups using Infrastructure as Code (IAC) tools for ML model deployment and scaling",
+          "Lead migration of traditional monolithic applications to microservice architecture with containerized ML inference services",
+          "End-to-end Terraform infrastructure pipeline automation with PagerDuty, AWS, and GitHub for ML/AI workload orchestration"
+        ]
+      },
+      {
+        "id": 2,
+        "jobTitle": "SRE Engineer",
+        "company": "SRS Business Solutions (Client: CISCO)",
+        "location": "Koramangala, Bangalore-560066",
+        "duration": "Jan 2020 – Dec 2020 (1 Year)",
+        "responsibilities": [
+          "Designed and implemented model hosting infrastructure foundations for future AI/ML workloads on AWS and Kubernetes",
+          "Established GPU resource management and allocation strategies for machine learning training and inference workloads",
+          "Built automated model deployment pipelines with version control and rollback capabilities for ML model lifecycle management",
+          "Implemented monitoring and observability solutions for ML model performance metrics and infrastructure health",
+          "Ensured technical design (TDA) authorized application pipelines with modern DevOps practices",
+          "Implemented automated deployment and maintenance with security integration",
+          "Developed end-to-end pipelines using Infrastructure as Code tools for faster delivery",
+          "Implemented IDS-IPS security automation for application stack threat detection"
+        ]
+      },
+      {
+        "id": 3,
+        "jobTitle": "DevSecOps Engineer",
+        "company": "Tata Consultancy Services",
+        "location": "Whitefield, Bangalore-560066",
+        "duration": "Dec 2018 – Jan 2020",
+        "responsibilities": [
+          "Ensured technical design (TDA) authorized application pipelines with modern DevOps practices",
+          "Implemented automated deployment and maintenance with security integration",
+          "Developed end-to-end pipelines using Infrastructure as Code tools for faster delivery",
+          "Implemented IDS-IPS security automation for application stack threat detection"
+        ]
+      },
+      {
+        "id": 4,
+        "jobTitle": "DevOps Automation Engineer",
+        "company": "Mindtree Limited",
+        "location": "Global Village, Kengeri, Bangalore-560059",
+        "duration": "July 2016 – Dec 2018",
+        "responsibilities": [
+          "Part of Centre of Excellence working on modern DevOps culture and pipeline strategy",
+          "Solved infrastructure challenges with premium monitoring tools and CI/CD",
+          "Implemented AWS infrastructure provisioning and RPA tools",
+          "Developed server patching infrastructure automations and log analytics"
+        ]
+      }
+    ]
+  }
+}

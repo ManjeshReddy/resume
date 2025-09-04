@@ -1,0 +1,269 @@
+{
+  "skills": {
+    "aws": {
+      "title": "Amazon Web Services",
+      "icon": "fab fa-aws",
+      "category": "cloud",
+      "technologies": [
+        "EC2",
+        "EKS", 
+        "RDS",
+        "Lambda",
+        "S3",
+        "CloudFormation",
+        "MSK",
+        "Kafka",
+        "Cognito",
+        "CloudFront",
+        "Route53",
+        "IAM",
+        "CloudWatch"
+      ],
+      "description": "Cloud infrastructure and services"
+    },
+    "container_orchestration": {
+      "title": "Container Orchestration",
+      "icon": "fab fa-docker",
+      "category": "containers",
+      "technologies": [
+        "Docker",
+        "Kubernetes",
+        "Helm",
+        "Kustomize",
+        "KEDA",
+        "Portainer",
+        "CSI drivers (EBS, S3, SM)",
+        "OPA",
+        "Karpenter"
+      ],
+      "description": "Container management and orchestration"
+    },
+    "service_mesh": {
+      "title": "Service Mesh - Istio",
+      "icon": "fas fa-sailboat",
+      "category": "networking",
+      "technologies": [
+        "Istio",
+        "Traffic management",
+        "Security policies",
+        "Observability"
+      ],
+      "description": "Service mesh for microservices"
+    },
+    "security_policies": {
+      "title": "Security & Policies",
+      "icon": "fas fa-shield-alt",
+      "category": "security",
+      "technologies": [
+        "Falco",
+        "Kyverno",
+        "Trivy",
+        "Snyk",
+        "GitGuardian",
+        "OPA",
+        "Runtime monitoring",
+        "Policy enforcement"
+      ],
+      "description": "Security tools and policy enforcement"
+    },
+    "python_libraries": {
+      "title": "Python & Libraries",
+      "icon": "fab fa-python",
+      "category": "programming",
+      "technologies": [
+        "Boto3",
+        "FastMCP",
+        "Transformers",
+        "MCP",
+        "FastAPI",
+        "Pandas",
+        "NumPy"
+      ],
+      "description": "Python programming and libraries"
+    },
+    "ai_ml_operations": {
+      "title": "AI/ML Operations & Fine-tuning",
+      "icon": "fas fa-brain",
+      "category": "ai_ml",
+      "technologies": [
+        "VLLM",
+        "MLX",
+        "CUDA",
+        "TensorRT",
+        "LoRA",
+        "QLoRA",
+        "PEFT",
+        "Model Quantization",
+        "Benchmarking",
+        "Gemma2/3",
+        "LLaMA",
+        "Hugging Face",
+        "PyTorch"
+      ],
+      "description": "AI/ML model hosting, fine-tuning, and optimization"
+    },
+    "git_cicd": {
+      "title": "Git & CI/CD",
+      "icon": "fab fa-github",
+      "category": "devops",
+      "technologies": [
+        "GitHub",
+        "Jenkins",
+        "ArgoCD",
+        "Bitbucket"
+      ],
+      "description": "Version control and continuous integration"
+    },
+    "linux_shell": {
+      "title": "Linux & Shell Scripting",
+      "icon": "fab fa-linux",
+      "category": "systems",
+      "technologies": [
+        "Bash",
+        "PowerShell",
+        "System administration"
+      ],
+      "description": "Linux systems and shell scripting"
+    },
+    "infrastructure_as_code": {
+      "title": "Infrastructure as Code",
+      "icon": "fas fa-code-branch",
+      "category": "automation",
+      "technologies": [
+        "Terraform",
+        "Terraspace",
+        "Terragrunt",
+        "Packer",
+        "Ansible",
+        "Chef"
+      ],
+      "description": "Infrastructure automation and provisioning"
+    },
+    "ai_operations": {
+      "title": "AI Operations",
+      "icon": "fas fa-brain",
+      "category": "ai",
+      "technologies": [
+        "VLLM",
+        "Model hosting",
+        "Quantization",
+        "PEFT"
+      ],
+      "description": "AI/ML operations and model management"
+    },
+    "security_monitoring": {
+      "title": "Security & Monitoring",
+      "icon": "fas fa-shield-alt",
+      "category": "security",
+      "technologies": [
+        "Suricata",
+        "Splunk",
+        "Wireshark",
+        "Datadog"
+      ],
+      "description": "Security monitoring and SIEM"
+    },
+    "databases": {
+      "title": "Databases",
+      "icon": "fas fa-database",
+      "category": "data",
+      "technologies": [
+        "MySQL",
+        "PostgreSQL",
+        "InfluxDB",
+        "DocumentDB"
+      ],
+      "description": "Database management systems"
+    },
+    "web_servers": {
+      "title": "Web Servers & Load Testing",
+      "icon": "fas fa-server",
+      "category": "infrastructure",
+      "technologies": [
+        "Nginx",
+        "Apache Tomcat",
+        "Traefik",
+        "k6s",
+        "Locust",
+        "llm-hammer",
+        "apache-benchmark"
+      ],
+      "description": "Web servers and load balancing"
+    },
+    "monitoring_observability": {
+      "title": "Monitoring & Observability",
+      "icon": "fas fa-chart-line",
+      "category": "monitoring",
+      "technologies": [
+        "Prometheus",
+        "Grafana",
+        "ELK Stack",
+        "Loki",
+        "Fluentd",
+        "Datadog",
+        "Jaeger",
+        "OpenTelemetry"
+      ],
+      "description": "System monitoring and observability"
+    },
+    "devops_tools": {
+      "title": "DevOps Tools",
+      "icon": "fas fa-cogs",
+      "category": "devops",
+      "technologies": [
+        "SonarQube",
+        "Rundeck",
+        "Ubuntu Juju"
+      ],
+      "description": "Development and operations tools"
+    },
+    "incident_management": {
+      "title": "Incident Management",
+      "icon": "fas fa-bell",
+      "category": "operations",
+      "technologies": [
+        "PagerDuty",
+        "Jira",
+        "Slack",
+        "Microsoft Teams",
+        "ChatOps"
+      ],
+      "description": "Incident response and management"
+    },
+    "chaos_engineering": {
+      "title": "Chaos Engineering",
+      "icon": "fas fa-bolt",
+      "category": "reliability",
+      "technologies": [
+        "Chaos Monkey",
+        "Gremlin",
+        "AWS FIS",
+        "Reliability testing",
+        "Failure injection"
+      ],
+      "description": "Chaos engineering and resilience testing"
+    }
+  },
+  "categories": {
+    "cloud": "Cloud Platforms",
+    "containers": "Containers & Orchestration",
+    "networking": "Networking & Service Mesh",
+    "security": "Security & Compliance",
+    "programming": "Programming Languages",
+    "devops": "DevOps & CI/CD",
+    "systems": "Systems Administration",
+    "automation": "Automation & IaC",
+    "ai": "AI/ML Operations",
+    "data": "Data & Databases",
+    "infrastructure": "Infrastructure & Servers",
+    "monitoring": "Monitoring & Observability",
+    "operations": "Operations & Incident Management",
+    "reliability": "Reliability Engineering"
+  },
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-09-03",
+    "total_skills": 17,
+    "total_technologies": 108
+  }
+}
