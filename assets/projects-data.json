@@ -1,133 +1,218 @@
 {
   "projects": {
     "title": "Key Projects",
-    "items": [
-      {
-        "id": 1,
+      "items": [
+        {
+          "id": 1,
+          "title": "Kubernetes Runtime Security & Threat Detection",
+          "description": "Enhanced Kubernetes runtime security by integrating Falco/Falcosidekick in EKS clusters, enabling real-time system call monitoring and anomaly detection across all environments.",
+          "technologies": ["AWS EKS", "Falco", "Falcosidekick", "Kubernetes", "Security"],
+          "result": "Achieved real-time security observability for ~800 pods and 100% compliance across EKS clusters. Proactive alerting reduced mean time to detect (MTTD)."
+        },
+        {
+          "id": 2,
+          "title": "Critical Vulnerability Remediation (WIZ)",
+          "description": "Resolved high and critical vulnerabilities reported by WIZ, including Linux kernel and driver issues, by promoting fixes and coordinating platform-wide patching.",
+          "technologies": ["WIZ", "Linux Kernel", "AWS EKS", "Security Compliance"],
+          "result": "Mitigated 1.5K+ critical risks across 180+ nodes, achieving full platform compliance and strengthened infrastructure security."
+        },
+        {
+          "id": 3,
+          "title": "Kafka Time-Bound Message Replay & Recovery",
+          "description": "Developed targeted Kafka message replay strategies to restore lakhs of messages after outages, avoiding full-stream reprocessing and reducing recovery time.",
+          "technologies": ["Kafka", "MSK Connect", "Microservices", "Recovery"],
+          "result": "Restored ~6 lakh messages in 15 mins, delivered zero-cost, fast Kafka restore approaches, and minimized system impact."
+        },
+        {
+          "id": 4,
+          "title": "Kubernetes Pod Security Standards Enforcement",
+          "description": "Extended Kyverno-based policy enforcement for Kubernetes Pod Security Standards (PSS), achieving full compliance and resolving 2,500+ security violations.",
+          "technologies": ["Kyverno", "Kubernetes", "Pod Security Standards", "Security"],
+          "result": "Established secure, scalable Kyverno architecture and streamlined secure practices across the software lifecycle."
+        },
+        {
+          "id": 5,
+          "title": "AMI Upgrades with Zero Downtime",
+          "description": "Coordinated and validated AMI upgrades across Karpenter-managed and EKS-managed nodes, ensuring compliance and zero downtime for learners.",
+          "technologies": ["AWS AMI", "Karpenter", "EKS", "Node Management"],
+          "result": "Achieved 100% availability during upgrades, maintained 150+ hardened nodes, and established a repeatable upgrade process."
+        },
+        {
+          "id": 6,
+          "title": "Event-Driven Autoscaling with KEDA",
+          "description": "Benchmarked and validated KEDA for event-driven autoscaling in EKS workloads, improving scalability for real-time and asynchronous applications.",
+          "technologies": ["KEDA", "EKS", "Autoscaling", "Kafka"],
+          "result": "Positioned architecture for future Kafka integration and improved autoscaling for 120+ services."
+        },
+        {
+          "id": 7,
+          "title": "Enterprise Observability with Splunk Cloud",
+          "description": "Designed and implemented a scalable observability solution using Splunk Cloud, streaming telemetry from 120+ applications for unified monitoring and real-time analysis.",
+          "technologies": ["Splunk Cloud", "Telemetry", "Observability", "AWS"],
+          "result": "Enabled proactive incident detection, faster root cause analysis, and improved operational efficiency."
+        },
+        {
+          "id": 8,
+          "title": "Warm Production Environment for Zero-Risk Cutover",
+          "description": "Set up a warm EKS cluster under a secondary domain, validated full-stack functionality, and ensured seamless transition to live domain with zero impact to services.",
+          "technologies": ["EKS", "Istio", "Multi-Domain", "API Testing"],
+          "result": "Tested and migrated 150+ microservices, executed 500 API endpoint tests, and reduced deployment risk."
+        },
+        {
+          "id": 9,
+          "title": "Seamless Authentication with Amazon Cognito",
+          "description": "Integrated frontend ALB with cross-account Amazon Cognito for secure, token-based authentication, maintaining identity federation across 40+ external systems.",
+          "technologies": ["Amazon Cognito", "ALB", "Authentication", "AWS"],
+          "result": "Achieved seamless, secure authentication with zero downtime and strengthened user experience."
+        },
+        {
+          "id": 10,
+          "title": "Centralized Network Traffic Management (Transit Gateway)",
+          "description": "Configured AWS Transit Gateway for centralized, secure cross-account communication, improving network visibility and troubleshooting across 5+ AWS accounts.",
+          "technologies": ["AWS Transit Gateway", "Network Security", "Cross-Account"],
+          "result": "Simplified network management, strengthened security, and achieved cost efficiency."
+        },
+        {
+          "id": 11,
+          "title": "OpenSearch Cross-Account Backup & Restore",
+          "description": "Delivered robust, automated OpenSearch backup-restore pipeline across AWS accounts, enabling zero-downtime data migration and integrity validation.",
+          "technologies": ["OpenSearch", "S3", "AWS", "Backup & Restore"],
+          "result": "Achieved downtime-free production migration and reduced operational risk."
+        },
+        {
+          "id": 12,
+          "title": "Resilient Backup & Recovery for Amazon MSK",
+          "description": "Developed automated backup and restore for Amazon MSK using Kafka Connect and S3, ensuring full data integrity and seamless recovery for real-time data streams.",
+          "technologies": ["Amazon MSK", "Kafka Connect", "S3", "Backup & Recovery"],
+          "result": "Enabled robust backup for ~30 topics and improved disaster recovery readiness."
+        },
+        {
+          "id": 13,
+          "title": "EKS Addon Upgrades & Compatibility",
+          "description": "Tested and upgraded EKS addons, validated microservices and CRDs for compatibility, and documented upgrade procedures to maintain platform stability.",
+          "technologies": ["EKS", "Addons", "CRD", "Microservices"],
+          "result": "Ensured compatibility across 20+ addon versions and avoided service disruptions."
+        },
+        {
+          "id": 14,
+          "title": "Single Sign-On Integration for Watershed & Cornerstone",
+          "description": "Configured and validated SSO for Watershed and Cornerstone applications, ensuring secure, seamless enterprise authentication and improved user access.",
+          "technologies": ["SSO", "Watershed", "Cornerstone", "Authentication"],
+          "result": "Delivered secure, seamless SSO integration and strengthened application security."
+        },
+        {
+          "id": 15,
+          "title": "MSK Event Replay for MuleSoft Optimization",
+          "description": "Developed and executed event replay scripts for MSK, enabling MuleSoft team to restore historical data, optimize event processing, and resolve workflow blockages.",
+          "technologies": ["MSK", "MuleSoft", "Event Replay", "AWS"],
+          "result": "Replayed 2,000+ events, optimized MuleSoft performance, and resolved workflow blockages."
+        },
+        {
+        "id": 16,
         "title": "Kubernetes Cluster Automation on AWS (EKS)",
         "description": "Designed and deployed a highly available Kubernetes cluster (EKS) across multiple AWS regions. Automated scaling policies and node group management with Terraform and Helm.",
         "technologies": ["AWS EKS", "Terraform", "Helm", "Kubernetes"],
         "result": "Reduced downtime by 35% and improved scalability for 50+ microservices"
       },
       {
-        "id": 2,
+        "id": 17,
         "title": "CI/CD Pipeline for Microservices",
         "description": "Built a comprehensive CI/CD pipeline with Jenkins, ArgoCD, and GitHub Actions for containerized microservices. Implemented automated testing, security scanning, and canary deployments.",
         "technologies": ["Jenkins", "ArgoCD", "GitHub Actions", "Docker"],
         "result": "Reduced release cycles from 2 weeks to daily deployments"
       },
       {
-        "id": 3,
+        "id": 18,
         "title": "Infrastructure as Code (IaC) with Terraform & Ansible",
         "description": "Automated AWS provisioning (VPCs, EC2, RDS, S3, IAM) with Terraform modules. Used Ansible for configuration management across 200+ servers.",
         "technologies": ["Terraform", "Ansible", "AWS", "IaC"],
         "result": "Cut environment setup time from days to under 1 hour"
       },
       {
-        "id": 4,
+        "id": 19,
         "title": "Monitoring & Incident Response System",
         "description": "Deployed Prometheus & Grafana with alerting rules for proactive monitoring. Integrated with PagerDuty/Slack for on-call escalation.",
         "technologies": ["Prometheus", "Grafana", "PagerDuty", "Slack"],
         "result": "Reduced Mean Time to Recovery (MTTR) by 50%"
       },
       {
-        "id": 5,
+        "id": 20,
         "title": "Service Mesh Implementation (Istio)",
         "description": "Deployed Istio service mesh on Kubernetes to manage service-to-service communication. Enabled mTLS encryption, traffic shaping, and blue/green deployments.",
         "technologies": ["Istio", "Kubernetes", "mTLS", "Service Mesh"],
         "result": "Improved observability and security compliance across 100+ microservices"
       },
       {
-        "id": 6,
+        "id": 21,
         "title": "Cost Optimization & Reliability Engineering",
         "description": "Implemented auto-scaling, spot instances, and lifecycle policies to optimize costs. Introduced AWS Trusted Advisor & CloudWatch alarms to track unused resources.",
         "technologies": ["AWS", "CloudWatch", "Auto Scaling", "Cost Optimization"],
         "result": "Saved ~20% in monthly AWS costs while improving uptime"
       },
       {
-        "id": 7,
+        "id": 22,
         "title": "Disaster Recovery & Multi-Region Failover",
         "description": "Architected a multi-region DR solution using Route 53, RDS replication, and S3 cross-region backups. Performed regular chaos testing with tools like Gremlin.",
         "technologies": ["Route 53", "RDS", "S3", "Gremlin"],
         "result": "Ensured 99.99% uptime SLA and reduced RTO from 4 hours to under 30 minutes"
       },
       {
-        "id": 8,
+        "id": 23,
         "title": "Centralized Logging & Security",
         "description": "Set up a centralized ELK (Elasticsearch, Logstash, Kibana) stack integrated with Kubernetes workloads. Automated log retention and anomaly detection using Python scripts.",
         "technologies": ["ELK Stack", "Elasticsearch", "Kibana", "Python"],
         "result": "Improved debugging efficiency by 60% and strengthened security compliance"
       },
+
       {
-        "id": 9,
-        "title": "Serverless Application Deployment (AWS Lambda)",
-        "description": "Designed an event-driven architecture using AWS Lambda, API Gateway, and DynamoDB. Automated CI/CD pipeline for serverless functions with SAM & CodePipeline.",
-        "technologies": ["AWS Lambda", "API Gateway", "DynamoDB", "SAM"],
-        "result": "Reduced infrastructure costs by 40% for burst traffic workloads"
-      },
-      {
-        "id": 10,
+        "id": 24,
         "title": "Automated Backup & Recovery System",
         "description": "Implemented automated RDS snapshots, S3 versioning, and cross-region replication. Created Python/Bash scripts to validate recovery during chaos testing.",
         "technologies": ["RDS", "S3", "Python", "Bash"],
         "result": "Achieved RPO < 5 mins and RTO < 30 mins"
       },
       {
-        "id": 11,
+        "id": 25,
         "title": "Security Hardening & Compliance (CIS, SOC2)",
         "description": "Applied CIS Benchmarks on AWS & Kubernetes clusters. Automated compliance checks with AWS Config & Open Policy Agent (OPA).",
         "technologies": ["CIS Benchmarks", "AWS Config", "OPA", "SOC2"],
         "result": "Passed multiple internal & external security audits with minimal remediation"
       },
       {
-        "id": 12,
+        "id": 26,
         "title": "Hybrid Cloud Deployment (AWS + On-Premise)",
         "description": "Deployed a hybrid Kubernetes cluster using AWS Outposts and on-prem data center. Configured VPN + Direct Connect for secure communication.",
         "technologies": ["AWS Outposts", "VPN", "Direct Connect", "Hybrid Cloud"],
         "result": "Improved business continuity and reduced latency for local workloads"
       },
       {
-        "id": 13,
+        "id": 27,
         "title": "Chaos Engineering & Reliability Testing",
         "description": "Used Chaos Mesh / Gremlin to simulate node failures, pod evictions, and network outages. Implemented self-healing strategies with Kubernetes health probes.",
         "technologies": ["Chaos Mesh", "Gremlin", "Kubernetes", "Health Probes"],
         "result": "Increased confidence in system reliability, achieving 99.95% SLA"
       },
       {
-        "id": 14,
+        "id": 28,
         "title": "API Gateway & Traffic Management",
         "description": "Implemented NGINX Ingress Controller & AWS API Gateway for routing. Configured WAF, rate limiting, and authentication with OAuth2.0.",
         "technologies": ["NGINX", "API Gateway", "WAF", "OAuth2.0"],
         "result": "Secured APIs against DDoS while handling 10M+ requests/day"
       },
       {
-        "id": 15,
+        "id": 29,
         "title": "Observability Platform Migration",
         "description": "Migrated monitoring stack from Nagios/Zabbix to Prometheus + Grafana + Loki. Standardized metrics and created custom dashboards for SLO monitoring.",
         "technologies": ["Prometheus", "Grafana", "Loki", "SLO"],
         "result": "Improved incident triage speed by 65%"
       },
       {
-        "id": 16,
+        "id": 30,
         "title": "Container Security Pipeline",
         "description": "Integrated Trivy, Clair, and Aqua Security into CI/CD pipeline. Automated vulnerability scanning for container images before deployment.",
         "technologies": ["Trivy", "Clair", "Aqua Security", "CI/CD"],
         "result": "Reduced critical vulnerabilities in production by 80%"
-      },
-      {
-        "id": 17,
-        "title": "Edge Computing with Kubernetes (K3s)",
-        "description": "Deployed lightweight K3s clusters on edge devices for IoT workloads. Automated updates and monitoring with FluxCD + Prometheus.",
-        "technologies": ["K3s", "Edge Computing", "FluxCD", "IoT"],
-        "result": "Reduced latency by 45% for real-time analytics use cases"
-      },
-      {
-        "id": 18,
-        "title": "Global CDN & Performance Optimization",
-        "description": "Configured CloudFront + Route 53 + WAF for global traffic distribution. Implemented caching and Gzip/Brotli compression at the edge.",
-        "technologies": ["CloudFront", "Route 53", "WAF", "CDN"],
-        "result": "Improved page load times by 60% across multiple regions"
       }
-    ]
+      ]
   }
 }

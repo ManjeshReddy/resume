@@ -243,6 +243,19 @@
       ],
       "description": "Chaos engineering and resilience testing"
     }
+  ,
+    "vibe_coading": {
+      "title": "Vibe coading",
+      "icon": "fas fa-wave-square",
+      "category": "automation",
+      "technologies": [
+        "Tools",
+        "Prompts",
+        "Instructions",
+        "MCP Servers like context7, task-master, draw.io, memory, k8s , aws-mcp etc."
+      ],
+      "description": "Skilled in Vibe coading, including the use of tools, prompt engineering, instruction design, and MCP server operations."
+    }
   },
   "categories": {
     "cloud": "Cloud Platforms",
@@ -259,6 +272,18 @@
     "monitoring": "Monitoring & Observability",
     "operations": "Operations & Incident Management",
     "reliability": "Reliability Engineering"
+  },
+  "vibe_coading": {
+    "title": "Vibe coading",
+    "icon": "fas fa-wave-square",
+    "category": "automation",
+    "technologies": [
+      "Tools",
+      "Prompts",
+      "Instructions",
+      "MCP Servers like context7, task-master, draw.io, memory, k8s etc."
+    ],
+    "description": "Skilled in Vibe coading, including the use of tools, prompt engineering, instruction design, and MCP server operations."
   },
   "metadata": {
     "version": "1.0",
